@@ -200,26 +200,33 @@ header {
 .feature {
   width: 1050px;
   margin: 10rem auto;
+  display: -webkit-flex;
   display: flex;
   justify-content: space-between;
+  -webkit-justify-content: space-between;
 
   &.screen-left {
     flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
   }
 
   &.screen-right {
     flex-direction: row;
+    -webkit-flex-direction: row;
   }
 
   .info {
     margin: 25px 45px;
     flex-grow: 1;
+    -webkit-flex-grow: 1;
     max-width: 410px;
   }
 
   .screen {
     flex-grow: 0;
+    -webkit-flex-grow: 0;
     flex-shrink: 0;
+    -webkit-flex-shrink: 0;
     width: 500px;
     margin: 0px 10px;
     text-align: center;
