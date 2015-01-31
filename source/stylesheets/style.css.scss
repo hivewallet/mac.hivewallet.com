@@ -239,7 +239,10 @@ header {
       padding: 0px 10px;
       box-sizing: border-box;
       
-      img { width: 100%; }
+      img {
+        width: 100%;
+        max-width: 500px;
+      }
     }
 
     .info {
