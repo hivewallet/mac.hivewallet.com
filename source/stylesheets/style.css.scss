@@ -1,0 +1,216 @@
+$light-font: "Jigsaw Light", Helvetica, sans-serif;
+$regular-font: "Jigsaw Regular", Helvetica, sans-serif;
+$medium-font: "Jigsaw Medium", Helvetica, sans-serif;
+$bold-font: "Jigsaw Bold", Helvetica, sans-serif;
+
+$main-text-color: #414244;
+$link-color: #0974e9;
+$link-hover-color: #024fa1;
+$gray-text-color: #5a5b5e;
+$gray-hover-color: #28292a;
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin-top: 0;
+  font-family: $regular-font;
+  -webkit-font-smoothing: antialiased;
+  color: $main-text-color;
+}
+
+a {
+  text-decoration: none;
+  color: $link-color;
+  font-family: $medium-font;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #c1bcbc;
+  width: 1050px;
+  margin: 6rem auto;
+}
+
+h1 {
+  font-family: $bold-font;
+  font-size: 5.2rem;
+  font-weight: normal;
+  text-align: center;
+  margin: 8rem 0 0;
+  padding-right: 6rem;
+
+  img {
+    width: 6.4rem;
+    vertical-align: top;
+    position: relative;
+    top: -3px;
+    margin-right: 1rem;
+  }
+}
+
+h2 {
+  font-family: $bold-font;
+  font-size: 3.2rem;
+  font-weight: normal;
+  text-align: center;
+  margin: 4rem 0;
+}
+
+header h2 {
+  font-family: $light-font;
+  color: $gray-text-color;
+  margin: 1rem 0;
+}
+
+#big_screen {
+  text-align: center;
+  margin: 6rem 0;
+}
+
+.top {
+  margin: 0 auto;
+  padding: 1rem;
+  background: #d8d8d8;
+  display: table;
+  font-size: 1.6rem;
+
+  a {
+    margin: 0 1rem;
+    color: $gray-text-color;
+    font-family: $regular-font;
+
+    &:hover {
+      color: $gray-hover-color;
+    }
+  }
+}
+
+.github-fork-ribbon {
+  background-color: #10355F;
+}
+
+#download {
+  display: table;
+  margin: 3rem auto 0;
+  background: #3D93F5 image-url('download.png') no-repeat 15px center;
+  background-size: 35px 40px;
+  padding: 1.3rem 2rem 1rem 70px;
+  border-radius: 10px;
+  font-size: 2.8rem;
+  color: white;
+
+  &:hover {
+    background-color: #0D78F2;
+  }
+
+  p {
+    margin: 0;
+    color: white;
+  }
+}
+
+.download-info {
+  text-align: center;
+  font-size: 1.4rem;
+  color: $gray-text-color;
+}
+
+.reasons {
+  width: 700px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.reason {
+  width: 345px;
+  float: left;
+  box-sizing: border-box;
+  padding: 0px 25px;
+
+  img {
+    width: 48px;
+    vertical-align: middle;
+    position: relative;
+    top: -3px;
+    margin-right: 1.2rem;
+  }
+}
+
+.feature {
+  width: 1050px;
+  margin: 10rem auto;
+  overflow: auto;
+
+  &.screen-left {
+    .screen { float:left; }
+    .info { float: right; }
+  }
+
+  &.screen-right {
+    .info { float: left; }
+    .screen { float: right; }
+  }
+
+  .info, .screen {
+    width: 500px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .info {
+    padding: 25px 45px;
+  }
+}
+
+h3 {
+  font-family: $bold-font;
+  font-size: 2.6rem;
+  font-weight: normal;
+}
+
+p {
+  font-family: $light-font;
+  font-size: 1.9rem;
+}
+
+footer {
+  margin: 5rem auto 4rem;
+  display: table;
+  font-size: 1.6rem;
+
+  a {
+    color: $gray-text-color;
+    margin: 0 1.2rem;
+
+    &:hover {
+      color: $gray-hover-color;
+    }
+  }
+
+  .github {
+    width: 1.6rem;
+    position: relative;
+    top: 2px;
+    margin-right: 0.2rem;
+  }
+
+  .bitcoin {
+    width: 1.5rem;
+    position: relative;
+    top: 2px;
+    margin-right: 0.1rem;
+  }
+
+  .twitter {
+    width: 1.6rem;
+    position: relative;
+    top: 2px;
+  }
+}
