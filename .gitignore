@@ -1,11 +1,4 @@
-/.bundle
-
-# Ignore the build directory
 /build
-
-# Ignore cache
-/.sass-cache
 /.cache
-
-# Ignore .DS_store file
+/.sass-cache
 .DS_Store
