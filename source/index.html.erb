@@ -1,11 +1,11 @@
 <header>
-  <h1><img src="hive-icon.png" alt=""> Hive Mac</h1>
+  <h1><%= image_tag 'hive-icon.png' %> Hive Mac</h1>
   
   <h2>A safe home for your bitcoins, right on your Mac.</h2>
 </header>
 
 <div id="big_screen">
-  <img src="hive-big-screen.png" alt="Hive Screenshot">
+  <%= image_tag 'hive-big-screen.png', alt: 'Hive Screenshot' %>
 </div>
 
 <a id="download" href="https://github.com/hivewallet/hive-osx/releases/download/1.4.1/Hive-1.4.1.zip">Download</a>
@@ -19,7 +19,7 @@
     <p>If you send or receive bitcoins from someone often, you can add them to the contact list for easier access. One contact can have any number of Bitcoin addresses assigned.</p>
   </div>
   <div class="screen">
-    <img src="feature-contacts.png">
+    <%= image_tag 'feature-contacts.png' %>
   </div>
 </div>
 
@@ -29,7 +29,7 @@
     <p>Hive Mac supports a method of Bitcoin payments called <a href="http://blog.bitpay.com/2014/06/09/payment-protocol-for-wallets.html">Payment Protocol</a> (BIP70), which is used by payment processors like Coinbase and BitPay and most merchants who accept Bitcoin.</p>
   </div>
   <div class="screen">
-    <img src="feature-payments.png">
+    <%= image_tag 'feature-payments.png' %>
   </div>
 </div>
 
@@ -39,7 +39,7 @@
     <p>Thanks to volunteer translators from the Bitcoin community, Hive Mac has been translated to <a href="https://www.transifex.com/projects/p/hive-osx/">over 30 languages</a> so far. If your language is not on the list yet, you can <a href="https://github.com/hivewallet/hive-osx/wiki/I18n-guide#for-translators">contribute a new translation</a>.</p>
   </div>
   <div class="screen">
-    <img src="feature-language.png">
+    <%= image_tag 'feature-language.png' %>
   </div>
 </div>
 
@@ -49,7 +49,7 @@
     <p>Hive can make backups of your wallet automatically to your Dropbox or Google Drive folder, and can also monitor if Time Machine backups are being done regularly.</p>
   </div>
   <div class="screen">
-    <img src="feature-backups.png">
+    <%= image_tag 'feature-backups.png' %>
   </div>
 </div>
 
@@ -59,7 +59,7 @@
     <p>Hive shows you notifications when you receive a transaction or when your transaction is confirmed.</p>
   </div>
   <div class="screen">
-    <img src="feature-notifications.png">
+    <%= image_tag 'feature-notifications.png' %>
   </div>
 </div>
 
@@ -69,22 +69,22 @@
 
 <div class="reasons">
   <div class="reason">
-    <h3><img src="icon-simple.png"> Simple</h3>
+    <h3><%= image_tag 'icon-simple.png' %> Simple</h3>
     <p>Hive is designed to be easy to start with and easy to use.</p>
   </div>
 
   <div class="reason">
-    <h3><img src="icon-security.png"> Secure</h3>
+    <h3><%= image_tag 'icon-security.png' %> Secure</h3>
     <p>The keys to your bitcoins are accessible only to you and encrypted with your password.</p>
   </div>
 
   <div class="reason">
-    <h3><img src="icon-privacy.png"> Private</h3>
+    <h3><%= image_tag 'icon-privacy.png' %> Private</h3>
     <p>You don't need to give anyone your name or address, and no one can stop you from making any transactions you want.</p>
   </div>
 
   <div class="reason">
-    <h3><img src="icon-mac.png"> Native</h3>
+    <h3><%= image_tag 'icon-mac.png' %> Native</h3>
     <p>Hive is built specifically for the Mac, using Apple's tools and application frameworks.</p>
   </div>
 </div>
