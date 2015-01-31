@@ -2,6 +2,8 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
   <title><%= current_page.data.title ?
     "#{current_page.data.title} - Hive Mac" :
     'Hive Mac - beautiful native Bitcoin wallet for the Mac' %></title>
@@ -30,12 +32,18 @@
 
   <footer>
     <a href="https://github.com/hivewallet/hive-osx"><%= image_tag 'github-mark.png', class: 'github' %> Source code</a>
+    &#x200b;
     <a href="https://github.com/hivewallet/hive-osx/releases">Version history</a>
+    &#x200b;
     <a href="https://www.transifex.com/projects/p/hive-osx/">Translations</a>
+    &#x200b;
     <a href="https://github.com/hivewallet/hive-osx/wiki/FAQ">FAQ</a>
+    &#x200b;
     <%= mail_to 'macsupport@hivewallet.com', 'Contact', target: '_blank' %>
+    &#x200b;
     <a href="bitcoin:1wdERgJVZhqeUVTWGmZqdorLGtFVzF1xy?label=Hive%20Mac%20Donation">
       <%= image_tag 'bitcoin-logo.png', class: 'bitcoin', alt: 'Bitcoin' %> Donations</a>
+    &#x200b;
     <a href="https://twitter.com/hive_mac"><%= image_tag 'twitter_logo_blue.png', class: 'twitter', alt: 'Twitter: ' %>
       @hive_mac</a>
   </footer>
