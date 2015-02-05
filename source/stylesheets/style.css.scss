@@ -20,7 +20,7 @@ body {
   -webkit-font-smoothing: antialiased;
   color: $main-text-color;
 
-  > p {
+  > p, > section {
     width: 720px;
     margin: 1rem auto;
 
@@ -52,6 +52,23 @@ hr {
   }
 }
 
+h1 {
+  font-family: $bold-font;
+  font-size: 5.2rem;
+  font-weight: normal;
+  text-align: center;
+  margin: 8rem 0 0;
+  padding-right: 6rem;
+
+  img {
+    width: 6.4rem;
+    vertical-align: top;
+    position: relative;
+    top: -3px;
+    margin-right: 1rem;
+  }
+}
+
 h2 {
   font-family: $bold-font;
   font-size: 3.2rem;
@@ -61,23 +78,6 @@ h2 {
 }
 
 header {
-  h1 {
-    font-family: $bold-font;
-    font-size: 5.2rem;
-    font-weight: normal;
-    text-align: center;
-    margin: 8rem 0 0;
-    padding-right: 6rem;
-
-    img {
-      width: 6.4rem;
-      vertical-align: top;
-      position: relative;
-      top: -3px;
-      margin-right: 1rem;
-    }
-  }
-
   h2 {
     font-family: $light-font;
     color: $gray-text-color;
@@ -95,6 +95,10 @@ header {
     h1 img { width: 4.4rem; top: 2px; }
     h2 { font-size: 2.6rem; }
   }
+}
+
+ol {
+  li { margin-bottom: 1rem; }
 }
 
 #big_screen {
@@ -134,7 +138,7 @@ header {
   }
 }
 
-#download {
+.download {
   display: table;
   margin: 3rem auto 0;
   background: #3D93F5 image-url('download.png') no-repeat 15px center;
@@ -146,6 +150,7 @@ header {
 
   &:hover {
     background-color: #0D78F2;
+    color: white;
   }
 
   p {
@@ -157,6 +162,10 @@ header {
     font-size: 2.4rem;
     background-size: 27px 30px;
     padding-left: 60px;
+  }
+
+  .crowdfunding & {
+    margin: 5rem auto;
   }
 }
 
@@ -267,9 +276,13 @@ h3 {
   font-weight: normal;
 }
 
-p {
+p, section {
   font-family: $light-font;
   font-size: 1.9rem;
+
+  strong {
+    letter-spacing: 0.2px;
+  }
 }
 
 footer {

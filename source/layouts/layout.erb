@@ -13,16 +13,17 @@
 
   <link rel="icon" sizes="16x16 24x24 32x32 48x48 64x64" href="/favicon.ico">
 </head>
-<body>
+<body class="<%= page_classes %>">
   <nav class="top">
     <div style=""></div>
     <a href="/">Hive Mac</a> |
+    <a href="/crowdfunding">Crowdfunding</a> |
     <a href="https://hivewallet.com">Hive iOS / Android</a>
   </nav>
 
   <div class="github-fork-ribbon-wrapper right">
     <div class="github-fork-ribbon">
-      <a href="https://github.com/hivewallet/hive-osx">Fork me on GitHub</a>
+      <a href="https://github.com/hivewallet/hive-mac">Fork me on GitHub</a>
     </div>
   </div>
 
@@ -31,13 +32,13 @@
   <hr>
 
   <footer>
-    <a href="https://github.com/hivewallet/hive-osx"><%= image_tag 'github-mark.png', class: 'github' %> Source code</a>
+    <a href="https://github.com/hivewallet/hive-mac"><%= image_tag 'github-mark.png', class: 'github' %> Source code</a>
     &#x200b;
-    <a href="https://github.com/hivewallet/hive-osx/releases">Version history</a>
+    <a href="https://github.com/hivewallet/hive-mac/releases">Version history</a>
     &#x200b;
     <a href="https://www.transifex.com/projects/p/hive-osx/">Translations</a>
     &#x200b;
-    <a href="https://github.com/hivewallet/hive-osx/wiki/FAQ">FAQ</a>
+    <a href="https://github.com/hivewallet/hive-mac/wiki/FAQ">FAQ</a>
     &#x200b;
     <%= mail_to 'macsupport@hivewallet.com', 'Contact', target: '_blank' %>
     &#x200b;
