@@ -36,7 +36,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
-    eventmachine (1.0.4)
+    eventmachine (1.0.9.1)
     execjs (2.2.2)
     ffi (1.9.6)
     haml (4.0.6)
@@ -140,3 +140,6 @@ DEPENDENCIES
   capistrano (~> 2.4)
   middleman (~> 3.3)
   middleman-livereload (~> 3.1)
+
+BUNDLED WITH
+   1.11.2
